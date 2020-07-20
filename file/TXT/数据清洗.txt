@@ -1,0 +1,42 @@
+#alter table 表名 add column 列名 varchar(20) not null after user1;#增加列表
+#delete from phone_assess where size like '%/%';#删除语句
+#update phone_assess  set body_color = '黑色系'  where body_color like '%黑%' ;#更新语句
+#常见颜色清洗
+update phone_assess  set body_color = '红色系'  where body_color like '%赤%' ;
+update phone_assess  set body_color = '红色系'  where body_color like '%红%' ;
+update phone_assess  set body_color = '橙色系'  where body_color like '%橙%' ;
+update phone_assess  set body_color = '黄色系'  where body_color like '%黄%' ;
+update phone_assess  set body_color = '绿色系'  where body_color like '%绿%' ;
+update phone_assess  set body_color = '青色系'  where body_color like '%青%' ;
+update phone_assess  set body_color = '蓝色系'  where body_color like '%蓝%' ;
+update phone_assess  set body_color = '紫色系'  where body_color like '%紫%' ;
+update phone_assess  set body_color = '黑色系'  where body_color like '%黑%' ;
+update phone_assess  set body_color = '白色系'  where body_color like '%白%' ;
+update phone_assess  set body_color = '灰色系'  where body_color like '%灰%' ;
+update phone_assess  set body_color = '黄色系'  where body_color like '%金%';
+update phone_assess  set body_color = '白色系'  where body_color like '%银%' ;
+update phone_assess  set body_color = '红色系'  where body_color like '%粉%' ;
+update phone_assess  set body_color = '黄色系'  where body_color like '%棕%' ;
+update phone_assess  set body_color = '黄色系'  where body_color like '%橘%';
+update phone_assess  set body_color = '白色系'  where body_color like '%透%';
+update phone_assess  set body_color = '黑色系'  where body_color like '%曜%';
+update phone_assess  set body_color = '黑色系'  where body_color like '%夜%';
+update phone_assess  set body_color = '绿色系'  where body_color like '%森%';
+update phone_assess  set body_color = '绿色系'  where body_color like '%碧%';
+update phone_assess  set body_color = '绿色系'  where body_color like '%翠%';
+update phone_assess  set body_color = '绿色系'  where body_color like '%林%';
+update phone_assess  set body_color = '青色系'  where body_color like '%幻%';
+#杂色系处理
+update phone_assess  set body_color = '其他系'  where body_color like '%亚%';
+update phone_assess  set body_color = '其他系'  where body_color like '%深%';
+update phone_assess  set body_color = '其他系'  where body_color like '%液%';
+update phone_assess  set body_color = '其他系'  where body_color like '%牛%';
+update phone_assess  set body_color = '其他系'  where body_color like '%珊%';
+update phone_assess  set body_color = '其他系'  where body_color like '%天%';
+update phone_assess  set body_color = '其他系'  where body_color like '%空%';
+update phone_assess  set body_color = '其他系'  where body_color like '%樱%';
+update phone_assess  set body_color = '其他系'  where body_color like '%云%';
+update phone_assess  set body_color = '其他系'  where body_color like '%极%';
+update phone_assess  set body_color = '其他系'  where body_color like '%之%';
+update phone_assess  set body_color = '其他系'  where body_color like '%斯%';
+update phone_assess  set body_color = '其他系'  where body_color like '%礼%';
